@@ -1,5 +1,5 @@
 # RG-VWAPCross-MT5-Bot
-Торговая система для MetaTrader 5, которая использует торговлю по VWAP
+Торговая система для MetaTrader 5, которая использует торговлю от VWAP
 
 * Created by Denis Kislitsyn | denis@kislitsyn.me | [kislitsyn.me](https://kislitsyn.me)
 * Version: 1.00
@@ -31,7 +31,7 @@
 
 ## Техническое задание
 - [x] 1. Expert start - 10:15 - Expert end 18:40 - 
-- [ ] 2. if there are open positions, they need to be closed at the market price at 18:39, and stop to work after position close. Then on the next day it will start to work again by itself on 10:15.
+- [x] 2. if there are open positions, they need to be closed at the market price at 18:39, and stop to work after position close. Then on the next day it will start to work again by itself on 10:15.
 Timeframe is M1
 
 
@@ -91,9 +91,9 @@ Timeframe is M1
 
 3.      IMPORTANT
 
-- [ ] I need to change all parameters, so I need full code:
-- [ ] 1.      Expert start time
-- [ ] 2.      Expert finish time
+- [x] I need to change all parameters, so I need full code:
+- [x] 1.      Expert start time
+- [x] 2.      Expert finish time
 - [x] 3.      Pause time (now: 5 minutes after Limit profit order and 15 minutes after stop loss)
 - [x] 4.      Value of the initial open buy or sell order (+10 or -10 relative to VWAP)
 - [x] 5.      Value for limit profit order (now is 40) and stop loss (now is 10)
