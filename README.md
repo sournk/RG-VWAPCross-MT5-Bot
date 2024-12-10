@@ -30,7 +30,7 @@
 
 
 ## Техническое задание
-- [ ] 1. Expert start - 10:15 - Expert end 18:40 - 
+- [x] 1. Expert start - 10:15 - Expert end 18:40 - 
 - [ ] 2. if there are open positions, they need to be closed at the market price at 18:39, and stop to work after position close. Then on the next day it will start to work again by itself on 10:15.
 Timeframe is M1
 
