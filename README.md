@@ -2,10 +2,11 @@
 Торговая система для MetaTrader 5, которая использует торговлю от VWAP
 
 * Created by Denis Kislitsyn | denis@kislitsyn.me | [kislitsyn.me](https://kislitsyn.me)
-* Version: 1.01
+* Version: 1.02
 
 ## Что нового?
 ```
+1.02: [+] Релиз без ограничений.
 1.01: [+] Во время закрытия позиций 'EXT_HCT' еще удаляются и все ордеры.
       [+] В 'ENT_OEP' можно использовать отрицательный сдвиг.
       [+] Индикатор Sweep VWAP Anchored с двумя параметрами и их значениями: 'Time to Anchor' и 'Apply To'.
